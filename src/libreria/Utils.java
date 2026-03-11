@@ -1,3 +1,7 @@
+package libreria;
+
+import model.Genero;
+
 import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -156,9 +160,9 @@ public class Utils {
     }
 
     /**
-     * Muestra las opciones del enum Genero y permite al usuario seleccionar una.
+     * Muestra las opciones del enum model.Genero y permite al usuario seleccionar una.
      * * @param mensaje Texto que precede a la lista de opciones.
-     * @return El valor del Enum Genero seleccionado.
+     * @return El valor del Enum model.Genero seleccionado.
      */
     public static Genero leerEnumGenero(String mensaje) {
         // Obtenemos todos los valores posibles del enum en un array

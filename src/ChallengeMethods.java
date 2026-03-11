@@ -10,7 +10,9 @@ public class ChallengeMethods {
     public void inicio(){
         int menu;
         do {
-            menu = leerEnteroConsola("✨ ¡Bienvenido al juego del Número Mágico! ✨ \n[1] Jugar \n[2] Salir", 1, 2);
+            menu = leerEnteroConsola("✨ ¡Bienvenido al juego del Número Mágico! ✨ \n[1] Jugar \n[2] Salir",
+                    1,
+                    2);
             switch (menu) {
                 case 1:
                     jugar();
